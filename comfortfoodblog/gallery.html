@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Comfort Food Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Food Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Simple Back / Forward buttons -->
+    <div style="margin-bottom: 20px; display: flex; gap: 15px;">
+      <button onclick="history.back()" style="padding: 10px 20px; border-radius: 20px; background:#6a0572; color:white; border:none; cursor:pointer;">Back</button>
+
+      <button onclick="window.location.href='blog.html'" style="padding: 10px 20px; border-radius: 20px; background:#6a0572; color:white; border:none; cursor:pointer;">Forward</button>
+    </div>
+
+    <h2>Visual Comfort</h2>
+
+    <img src="images/pizza.jpg" alt="Three gourmet pizzas">
+    <img src="images/macaroni.jpg" alt="Macaroni in red sauce">
+
+  </main>
+
+  <footer>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="recipes.html">Recipes</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="blog.html">Blog</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>&copy; 2025 Designed by Dom</p>
+  </footer>
+</body>
+</html>
